@@ -2,7 +2,7 @@ exports.countWords = function(userText) {
   var textSplit = userText.split(" ");
   for (var i = 0; i < textSplit.length; i++) {
     if (textSplit[i] === "") {
-      textSplit = textSplit.splice(i, 1);
+      textSplit.splice(i, 1);
       i--;
     }
   }
