@@ -7,4 +7,4 @@ exports.countWords = function(userText) {
     }
   }
   return textSplit.length;
-}
+};
